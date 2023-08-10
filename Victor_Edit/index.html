@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Comandos Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guia de Comandos Git</h1>
+        <p>Aqui estão alguns dos comandos Git mais comuns que você pode usar no Git Bash:</p>
+        
+        <h2>Configuração Inicial</h2>
+        <code>$ git config --global user.name "Seu Nome"</code><br>
+        <code>$ git config --global user.email "seu@email.com"</code>
+        
+        <h2>Criar e Clonar Repositórios</h2>
+        <code>$ git init</code><br>
+        <code>$ git clone URL_DO_REPOSITORIO</code>
+        
+        <h2>Trabalhando com Alterações</h2>
+        <code>$ git add nome-do-arquivo</code><br>
+        <code>$ git commit -m "Mensagem do commit"</code><br>
+        <code>$ git status</code>
+        
+        <h2>Branches</h2>
+        <code>$ git branch</code><br>
+        <code>$ git checkout nome-do-branch</code><br>
+        <code>$ git merge nome-do-branch</code>
+        
+        <h2>Sincronização Remota</h2>
+        <code>$ git remote add origin URL_DO_REPOSITORIO</code><br>
+        <code>$ git push -u origin nome-do-branch</code><br>
+        <code>$ git pull origin nome-do-branch</code>
+        
+        <h2>Histórico e Undo</h2>
+        <code>$ git log</code><br>
+        <code>$ git reset commit-hash</code><br>
+        <code>$ git revert commit-hash</code>
+    </div>
+</body>
+</html>
